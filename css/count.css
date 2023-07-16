@@ -1,3 +1,11 @@
+:root{
+    --primary-color:#675D50;
+    --round-color:#9D5C0D;
+    --number-color:#FDA769;
+    --span-color:#A9907E;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -33,9 +41,9 @@ background:#ffff;
     padding: 10px;
 }
 
-h1{
+h1, h2{
     text-align: center;
-    color: #675D50;
+    color: var(--primary-color);
     font-size: 30px;
     padding: 25px 5px;
 }
@@ -43,13 +51,13 @@ h1{
 p{
     display: grid;
     place-items: center;
-    border: solid 0.5px #ABC270;
+    border: solid 0.5px var(--round-color);
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    color:#FDA769;
+    color:var(--number-color);
 }
 
 span{
-   color:#A9907E; 
+   color:var(--span-color); 
 }
