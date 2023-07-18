@@ -91,7 +91,7 @@ span{
 }
 
 
-#footer{
+strong{
     font-size: small;
     color: var(--primary-color);
 }
